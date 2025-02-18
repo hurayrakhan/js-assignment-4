@@ -11,4 +11,5 @@ function validContact(contact){
         return "Invalid";
     }
 }
-
+const validNumber = validContact("01987654321");
+console.log(validNumber);
