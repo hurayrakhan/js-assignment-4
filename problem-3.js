@@ -1,4 +1,3 @@
-const numbers = [55, 75, 41, 33, 0, 87, 91, 56];
 
 function willSuccess(marks){
 
@@ -28,6 +27,9 @@ function willSuccess(marks){
         return "Invalid";
     }    
 }
+
+const numbers = [55, 75, 41, 33, 0, 87, 91, 56];
+
 
 const accepted = willSuccess(numbers);
 console.log(accepted);
